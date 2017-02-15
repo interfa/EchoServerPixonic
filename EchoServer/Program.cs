@@ -10,7 +10,7 @@ namespace EchoServer
             string ip = ConfigurationManager.AppSettings.Get("Ip");
             int port = Int32.Parse(ConfigurationManager.AppSettings.Get("Port"));
             Server server = new Server(ip, port);
-            server.RenameMePlease();
+            server.Start();
         }
     }
 }

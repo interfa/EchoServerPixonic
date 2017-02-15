@@ -22,7 +22,7 @@ namespace EchoServer
             _roomManager = new RoomManager();
         }
 
-        public void RenameMePlease()
+        public void Start()
         {
             try
             {
